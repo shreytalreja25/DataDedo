@@ -1,0 +1,61 @@
+Today we will be working on a project called "DataDedo" . this will be a MERN stack application and will have the following flow :
+
+1. There will be a login screen with user to Either Login by entering username and password or by creating a new user. The login screen will also have Login with third party apps like : Facebook , google and twitter.
+
+2. After logging in the user will be redirected to the dashboard. The dashboard will have a top bar which will say "DataDedo" in the left hand side and in the right hand side there will be 3 icons : Home, Profile and Logout. 
+
+3. The dashboard will be divided into 4 rectangles placed in a 2x2 manner. First card will Say Welcome to the user and give a brief description of DataDedo. The second card will Have an area for user to drag and drop either CSV or XLS files which will contain some data. The user will be able to upload their data here which will get stored in the database.The third card will show the last data uploaded by the user in a datatable format. The fourth card will show some graphical visualizations from the Data user uploaded in last session
+
+4. After uploading the data using the Second card of Data upload, the user will be prompted by a big modal popup wherein the user will set the name of their new Project , the name of the file , a Create New Project Button and a preview of the Data they just uploaded.
+
+5. After the user has Created their new project the data they uploaded will be shown in a datatable format and the user will have the option to Edit the rows or delete the rows (Basically perform CRUD operations in their Data). 
+
+6. After the user has managed their data , they will have a button to "Visualize their Data" on top right corner of their data which will take the user to a page where they can see the graphical visualizations of their data using various charts.
+
+7. The visualize your data tab will also have a text box for users to enter a prompt that will use AI and ML tools to prepare charts of the Data.  For example : If user enters "Prepare a pie chart of the users based on their location" then a pie chart will be drawn based on the users data.
+
+Understand the complete functionality and flow of the application and explain it back to me. Suggest me more feature that I can add to this app. Ask me if you have any doubts regarding the app.Once we are set with the structure of the app we will start building it. We will be using MERN stack to make this app and use Visual Studio Code to code and Github as a version control tool. keep all this in mind and generate a development and production plan for the app. Also generate your views about the Idea for the app.
+
+---------------------------------------------------------------------
+
+Complete List of Features in DataDedo:
+
+    Login with username/password or third-party authentication (Facebook, Google, Twitter).
+    Dashboard with top bar and three icons (Home, Profile, Logout).
+    Four rectangles on the dashboard: Welcome & Description, Data Upload, Last Uploaded Data, Graphical Visualizations.
+    Data Upload - Drag and drop CSV/XLS files for storage in the database.
+    Create New Project Modal - Set project name, file name, and preview uploaded data.
+    Data Management - CRUD operations on uploaded data in datatable format.
+    Visualize Your Data - Generate graphical visualizations from the uploaded data using various charts.
+    AI/ML Tools - Generate charts based on user-entered prompts.
+    User Collaboration - Real-time collaboration on projects with role-based access.
+    Data Versioning - Track changes and revert to previous versions of datasets.
+    Data Filters and Search - Apply filters and search within the datatable.
+    Data Visualization Customization - Customize appearance and style of charts.
+    Data Export Options - Export visualizations in various formats and the entire datatable to CSV/XLS.
+    Data Insights and Recommendations - AI-generated insights and recommendations.
+    Data Validation - Validation checks for uploaded data.
+    Data Permissions Management - Manage access permissions for datasets or visualizations.
+    Data Sharing and Collaboration Links - Shareable links for datasets or visualizations.
+    Real-Time Notifications - Notify users of changes and data processing status.
+    Data Duplication - Duplicate datasets or projects for experimentation.
+    Data Import from External Sources - Import data from cloud storage or online databases.
+    Data Cleaning and Transformation - Tools for data cleaning and transformation operations.
+    Data Security and Encryption - Secure encryption and data protection measures.
+    Data Analytics Dashboard - Display key analytics and metrics based on uploaded data.
+    User Activity Logging - Record user activities for auditing and tracking.
+    DataDedo API - Secure API for external application integration.
+    Dark Mode Support - Option for a dark mode interface.
+    Multi-Language Support - Support for multiple languages.
+    User Onboarding and Tutorials - Interactive tutorials and onboarding process.
+    Data Backup and Restore - Create backups and restore projects/datasets.
+    Data Insights Dashboard - Separate dashboard for data insights and recommendations.
+    Data Comparison - Compare datasets or visualize changes between versions.
+    Mobile Responsive Design - User-friendly interface on various devices.
+    Interactive Data Filters - Interactively apply filters to visualizations.
+    Data Annotations - Add annotations or comments to specific data points.
+    Advanced ML Tools Integration - Advanced data analysis and predictive modeling.
+    Custom Data Dashboards - Personalized dashboards with multiple visualizations.
+    User Activity Analytics - Insights into user activity and usage patterns.
+
+This comprehensive list of features covers various aspects of data management, visualization, collaboration, and AI/ML-driven analysis, making "DataDedo" a powerful and versatile application for users dealing with data.
